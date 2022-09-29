@@ -1,7 +1,4 @@
- # 技术交流 
-- 开发交流，技术分享，问题答疑，功能建议收集，版本更新通知！！
 
- ![输入图片说明](https://gitee.com/minzonetech/CCSmartPhoto/raw/master/cc.png)
 
 # 项目介绍
 
@@ -84,6 +81,7 @@
 - [函数超时时间] => 20秒
  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101840_a213d534_9645159.png "配置云函数.png")
  
+
  
 
 
@@ -98,5 +96,11 @@
 
 ### 如有疑问，欢迎骚扰联系我鸭： 
 ### 俺的微信:  cclinux0730
+
+  # 与作者技术交流 
+- 开发交流，技术分享，问题答疑，功能建议收集，版本更新通知！！
+
+ ![输入图片说明](https://gitee.com/minzonetech/CCSmartPhoto/raw/master/cc.png)
+ 
 
 
