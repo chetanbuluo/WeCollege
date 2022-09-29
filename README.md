@@ -8,10 +8,10 @@
 - 创建表白主题：为便捷学生生活，学生可以失物招领，维修申请等解决校园生活问题；为解决学生课后疑问，提供课后问答模块
 - 为大学老师技工快捷查找休闲教室，智能办公，管理学生，查询学生成绩，考勤，解答学生课后问题等一系列服务。
 
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/102055_1d2389c1_9645159.png "设计.png")
+![image](https://user-images.githubusercontent.com/114638578/192943865-5a787150-3c58-4dc3-adf7-5eae40362afd.png)
 
 # 功能说明
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101448_8e4e43c8_9645159.jpeg "微校园 (2).jpeg")
+![image](https://user-images.githubusercontent.com/114638578/192943878-f2c720c0-0d32-41e6-b018-636fa4e7cc43.png)
 
 
 # 技术运用
@@ -21,17 +21,16 @@
 - 小程序本身的即用即走，适合小工具的使用场景，也适合程序的开发。
 
 # 项目效果截图
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101510_78e1101a_9645159.png "首页.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101522_2102087a_9645159.png "服务.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101528_82b32369_9645159.png "互动.png")
-
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101537_e1797af0_9645159.png "我的.png")
+![image](https://user-images.githubusercontent.com/114638578/192943893-a07475a0-c821-45b5-9c1a-01b5d728a912.png)
+![image](https://user-images.githubusercontent.com/114638578/192943899-8791f1fd-600c-495d-b111-9be28987045f.png)
+![image](https://user-images.githubusercontent.com/114638578/192943903-5f7d9936-cc38-4cc9-ad87-1b34d80cefc1.png)
+![image](https://user-images.githubusercontent.com/114638578/192943911-31a29630-bb71-4b2e-836c-c10315996c5c.png)
 
 
 # 项目后台截图
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101559_9b1d19f6_9645159.png "后台登录.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101607_d54aa863_9645159.png "后台首页.png")
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101614_6f784ab4_9645159.png "用户管理.png")
+![image](https://user-images.githubusercontent.com/114638578/192943916-e22c87ec-7e27-4d4a-942b-c5a8423240a7.png)
+![image](https://user-images.githubusercontent.com/114638578/192943924-0ceeeb01-1a4c-4411-b5a0-cc2301d684dc.png)
+![image](https://user-images.githubusercontent.com/114638578/192943931-f034187f-ad52-44de-b81e-e900bd69892f.png)
 
 # 部署教程：
 ### 0. 了解小程序云开发的基础知识
@@ -40,7 +39,7 @@
 - https://developers.weixin.qq.com/miniprogram/dev/wxcloud/quick-start/miniprogram.html
 
 ### 1 源码导入微信开发者工具
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0814/112238_5cf31255_9297599.png "导入.png")
+![image](https://user-images.githubusercontent.com/114638578/192943947-74e4d3be-a755-4f4d-80b9-34921632b5f3.png)
   
 
  
@@ -49,7 +48,7 @@
  -  参考微信官方文档：https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 - 在使用云开发能力之前，需要先开通云开发。 
 - 在开发者工具的工具栏左侧，点击 “云开发” 按钮即可打开云控制台，根据提示开通云开发，并且创建一个新的云开发环境。
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/232537_8a27b61c_9240987.png "云开发开通环境.png")
+![image](https://user-images.githubusercontent.com/114638578/192943956-e127c5af-d04a-408a-a791-9d17b9d29f1e.png)
 - 每个环境相互隔离，拥有唯一的环境 ID(拷贝此ID，后面配置用到)，包含独立的数据库实例、存储空间、云函数配置等资源；
  
 
@@ -59,18 +58,17 @@
 
 - 打开cloudfunctions/sport_cloud/comm/ccmini_config.js文件，配置后台管理员账号和密码
 
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0911/150146_a9af88e5_9240987.png "设置管理员账号.png")
+![image](https://user-images.githubusercontent.com/114638578/192943971-8c20e51a-a9f9-40c9-b570-b721284b9330.png)
 
  
 #### 4  上传云函数&指定云环境ID
 
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101935_d116bfc6_9645159.png "上传到云.png")
+![image](https://user-images.githubusercontent.com/114638578/192943978-1f988acb-5b12-43e1-a98d-f60af0ea4326.png)
 
 
 #### 5  客户端配置
 - 打开miniprogram/app.js文件，配置环境 ID
-
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/232832_6053aae0_9240987.png "客户端配置.png")
+![image](https://user-images.githubusercontent.com/114638578/192943985-f37c42f5-820e-4ea4-af43-4b55e3f44ef5.png)
 
 
 
@@ -79,7 +77,7 @@
 - [服务端时间时区TZ] =>Asia/Shanghai
 - [函数内存] =>128M   
 - [函数超时时间] => 20秒
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101840_a213d534_9645159.png "配置云函数.png")
+![image](https://user-images.githubusercontent.com/114638578/192943992-87bb9694-1ce3-4c9d-a09a-8a3a615f969c.png)
  
 
  
@@ -90,8 +88,7 @@
 
 ### 在线演示：
  
-
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/233918_96b29222_9240987.jpeg "Free版-QR.jpg")
+![image](https://user-images.githubusercontent.com/114638578/192944001-26ede8c1-d3d2-4c40-81cb-ad72abd6b596.png)
 
 
 ### 如有疑问，欢迎骚扰联系我鸭： 
@@ -100,7 +97,6 @@
   # 与作者技术交流 
 - 开发交流，技术分享，问题答疑，功能建议收集，版本更新通知！！
 
- ![输入图片说明](https://gitee.com/minzonetech/CCSmartPhoto/raw/master/cc.png)
- 
+![image](https://user-images.githubusercontent.com/114638578/192944021-0ae02aca-32c4-4130-9224-5a85e9cb0d1a.png)
 
 
